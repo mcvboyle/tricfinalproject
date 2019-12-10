@@ -1,0 +1,83 @@
+
+nav {
+    text-decoration-color: burlywood;
+    text-align: center;
+}
+p{
+    background color: white;
+    font-family: 'Alatsi', sans-serif;
+    z-index: 10000em;
+
+}
+header h1{
+    text-align: center;
+   font-family: 'Alatsi', sans-serif;    
+}
+
+main{
+        font-size:3vw;
+        text-align: center;
+        font-family: 'Alatsi', sans-serif;
+        background-color: darkgrey;
+   
+
+}
+aside{
+    z-index: 10000em;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 4vw;
+    color:  burlywood;
+}
+nav div{
+    background-color: darkgrey;
+    text-align: right;
+    font-size: 3vw;
+    display:flex;
+    flex-wrap:wrap;
+    font-family: 'Barlow Condensed', sans-serif;
+    color:blanchedalmond;
+    align-content: right;
+}
+#grid-container{
+    display:flex;
+    
+}
+.box{
+    font-family: 'Barlow Condensed', sans-serif;
+    width:auto;
+    height: auto;
+    background-color: darkgrey;
+    align-content:center;
+    margin:5px;
+    border: none;
+   
+}
+a: visited{
+    text-decoration:none;
+}
+a: hover{
+    text-decoration:underline;
+}
+
+
+li{ 
+    list-style-type:vertical;
+    display:contents;
+    margin:0 20px;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
